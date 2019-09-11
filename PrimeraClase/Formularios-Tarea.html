@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <center>
+    <h1>Registration Form</h1>
+
+    <form>
+      <label>
+          User Id: <input type="textarea" name="Id" min="5" max="12" required>
+        <p>
+          Password: <input type="textarea" name="contraseña" min="7" max="12" required>
+        <p>
+          Name: <input type="textarea" name="nombre" pattern="[A-Za-z]" required>
+        <p>
+          Address: <input type="textarea" name="address" >
+        <p>
+          Country:
+          <select required>
+              <option value="(Please select a country)">(Please select a country)</option>
+              <option value="Wakanda">Wakanda</option>
+              <option value="Demacia">Demacia</option>
+              <option value="Noxus">Noxus</option>
+              <option value="Jonia">Jonia</option>
+              <option value="Shurima">Shurima</option>
+              <option value="Piltover">Piltover</option>
+              <option value="Zaun">Zaun</option>
+              <option value="Freljord">Freljord</option>
+
+
+          </select>
+        <p>
+          ZIP Code: <input type="textarea" name="code" pattern="[1-9]" required>
+        <p>
+          Email: <input type="email" name="email" required>
+        <p>
+          Sex: <input type="radio" required>Male <input type="radio" required>Female
+        <p>
+          Language: <input type="checkbox" required>English <input type="checkbox" required>Non English
+        <p>
+          About: <textarea cols="40%" rows="10%"></textarea>
+        <p>
+          <input type="submit">
+      </label>
+
+
+
+    </form>
+  </center>
+  </body>
+</html>
